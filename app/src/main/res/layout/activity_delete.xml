@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".crud.DeleteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Id"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etHapus"/>
+
+    <Button
+        android:id="@+id/btnhapus"
+        android:background="@drawable/buttonshape"
+        android:layout_width="100dp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/gotham"
+        android:layout_height="wrap_content"
+        android:text="Hapus"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#f40707"
+        android:text="NB : untuk menghapus harus mengganti id di file konfigurasi.java"/>
+
+</LinearLayout>
